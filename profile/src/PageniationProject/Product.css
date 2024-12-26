@@ -1,0 +1,73 @@
+/* PageniationProject/Product.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: white;
+}
+
+/* Header styles */
+.head {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.nav {
+    text-align: center;
+}
+
+/* Product list styles */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ol li h2 {
+    margin: 0;
+}
+
+ol li p {
+    margin: 5px 0;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    font-size: 1.2em;
+    margin: 0 10px;
+}
